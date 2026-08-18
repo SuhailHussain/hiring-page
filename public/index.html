@@ -20,21 +20,19 @@
     document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' govuk-frontend-supported' : '');
   </script>
 
-  <a href="#main-content" class="govuk-skip-link" data-module="govuk-skip-link">Skip to main content</a>
-
   <!--
     This is a departmental comms page, not a GOV.UK service, so it uses
     the DSIT/GDS brand colour (#00f8f8) rather than the black GOV.UK
     crest header. Swap the text lockup below for your actual GDS logo
     file when you have it.
   -->
-  <header style="background-color:#00f8f8;">
-    <div class="govuk-width-container">
-      <div style="padding: 15px 0;">
-        <span style="font-family: 'GDS Transport', arial, sans-serif; font-weight: 700; font-size: 24px; color: #0b0c0c;">GDS</span>
-      </div>
+<header>
+  <div class="govuk-width-container">
+    <div style="padding: 15px 0;">
+      <img src="/public/images/gds-logo.png" alt="GDS - Government Digital Service" style="height: 48px; width: auto; display: block;">
     </div>
-  </header>
+  </div>
+</header>
 
   <div class="govuk-width-container">
     <main class="govuk-main-wrapper" id="main-content">
